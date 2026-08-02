@@ -1,0 +1,6 @@
+Alembic migration environment for the complaint QMS backend.
+
+Run commands from the backend directory:
+
+  .venv\Scripts\python.exe -m alembic revision --autogenerate -m "message"
+  .venv\Scripts\python.exe -m alembic upgrade head
